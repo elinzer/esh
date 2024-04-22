@@ -23,7 +23,7 @@
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
-    --bs-primary: #e5261f;
+    --bs-primary: #3E442B;
     --bs-secondary: #f88379;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -31,7 +31,7 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
-    --bs-primary-rgb: 229, 38, 31;
+    --bs-primary-rgb: 62, 68, 43;
     --bs-secondary-rgb: 248, 131, 121;
     --bs-success-rgb: 25, 135, 84;
     --bs-info-rgb: 13, 202, 240;
@@ -87,8 +87,8 @@
     --bs-tertiary-bg: #f8f9fa;
     --bs-tertiary-bg-rgb: 248, 249, 250;
     --bs-heading-color: inherit;
-    --bs-link-color: #e5261f;
-    --bs-link-color-rgb: 229, 38, 31;
+    --bs-link-color: #3E442B;
+    --bs-link-color-rgb: 62, 68, 43;
     --bs-link-decoration: none;
     --bs-link-hover-color: #ea524d;
     --bs-link-hover-color-rgb: 234, 82, 77;
@@ -10620,7 +10620,7 @@ ol li {
 }
 
 .footer {
-    background: #e5261f;
+    background: #6A7062;
     padding-top: 15px;
     padding-bottom: 15px
 }
@@ -10704,7 +10704,7 @@ ol li {
 }
 
 .sub-footer {
-    background: #bb1c16;
+    background: #6A7062;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 15px
