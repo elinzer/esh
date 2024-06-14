@@ -11182,11 +11182,13 @@ ol li {
 
 .intro {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    overflow: hidden
+    overflow: hidden;
+    width: 100%;
+    margin-left: 25%;
 }
 
 @media(min-width: 768px) {
@@ -11496,7 +11498,11 @@ body {
 .headshot-img {
     width: 355px;
     height: 540px;
-    box-shadow: 10px 10px 3px #A07e18;
+    box-shadow: 10px 10px 0px #A07e18;
+}
+
+.training-img {
+    box-shadow: 10px 10px 0px #56693A;
 }
 
 /*# sourceMappingURL=style.css.map */
