@@ -65,16 +65,16 @@
     --bs-dark-border-subtle: #adb5bd;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 47, 47, 65;
-    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-sans-serif: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --bs-body-font-family: Helvetica, Arial, sans-serif, -apple-system;
+    --bs-body-font-family: "Figtree", sans-serif, -apple-system;
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
     --bs-body-color-rgb: 33, 37, 41;
-    --bs-body-bg: #D0CBC8;
+    --bs-body-bg: white;
     --bs-body-bg-rgb: 255, 255, 255;
     --bs-emphasis-color: #2f2f41;
     --bs-emphasis-color-rgb: 47, 47, 65;
@@ -190,11 +190,11 @@
 
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
+    color: #253237;
     text-align: var(--bs-body-text-align);
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
@@ -10517,15 +10517,15 @@ textarea.form-control.is-invalid {
 
 p {
     line-height: 26px;
-    color: #5c5a5a;
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    color: #253237;
+    font-family: "Figtree", sans-serif, -apple-system;
     margin-bottom: 20px
 }
 
 h1,
 .h1 {
     font-size: 30px;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     line-height: 1.2;
     margin-bottom: 20px
 }
@@ -10542,7 +10542,7 @@ h1,
 h2,
 .h2 {
     font-size: 24px;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     line-height: 1.4;
     margin-bottom: 10px
 }
@@ -10595,7 +10595,7 @@ ol li {
 
 .header {
     color: #e5261f;
-    background-color: #fff;
+    background-color: #D0CBC8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10620,7 +10620,7 @@ ol li {
 }
 
 .footer {
-    background: #6A7062;
+    background: #D0CBC8;
     padding-top: 15px;
     padding-bottom: 15px
 }
@@ -10643,7 +10643,7 @@ ol li {
 .footer .footer-title {
     color: #fff;
     font-size: 1.3rem;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-weight: bold;
     margin-bottom: 10px
 }
@@ -10704,7 +10704,7 @@ ol li {
 }
 
 .sub-footer {
-    background: #6A7062;
+    background: #D0CBC8;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 15px
@@ -10880,7 +10880,7 @@ ol li {
 
 .main-menu-mobile ul {
     font-size: 30px;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     text-align: center;
     list-style: none;
     padding: 0;
@@ -11077,7 +11077,7 @@ ol li {
 }
 
 .content strong {
-    font-width: bold
+    font-width: bold;
 }
 
 .content em {
@@ -11085,14 +11085,14 @@ ol li {
 }
 
 .content p {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     line-height: 1.56;
-    color: #5c5a5a
+    color: #253237
 }
 
 .content h1,
 .content .h1 {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: 34px;
     line-height: 1.26;
     font-weight: normal;
@@ -11102,7 +11102,7 @@ ol li {
 
 .content h2,
 .content .h2 {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: 26px;
     font-weight: normal;
     line-height: 1.4;
@@ -11111,7 +11111,7 @@ ol li {
 
 .content h3,
 .content .h3 {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: 20px;
     line-height: 1.4;
     font-weight: normal;
@@ -11228,14 +11228,14 @@ ol li {
     line-height: 1.4;
     margin-bottom: 30px;
     color: #2f2f41;
-    font-family: Helvetica, Arial, sans-serif, -apple-system
+    font-family: "Figtree", sans-serif, -apple-system
 }
 
 .intro p {
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
-    color: #5c5a5a
+    color: #253237
 }
 
 @media(min-width: 768px) {
@@ -11442,7 +11442,7 @@ ol li {
 }
 
 .page-teams .team-summary .team-meta p {
-    color: #2f2f41;
+    color: #253237;
     text-transform: uppercase;
     margin: 0;
     font-size: 12px;
@@ -11477,13 +11477,13 @@ ol li {
     line-height: 1.4;
     margin-bottom: 40px;
     font-weight: regular;
-    color: #686868
+    color: #253237
 }
 
 body {
     font-size: 16px;
     line-height: 1.2;
-    font-family: Helvetica, Arial, sans-serif, -apple-system
+    font-family: "Figtree", sans-serif, -apple-system
 }
 
 @media(min-width: 768px) {
@@ -11494,8 +11494,9 @@ body {
 }
 
 .headshot-img {
-    width: 365px;
-    height: 550px;
+    width: 355px;
+    height: 540px;
+    box-shadow: 10px 10px 3px #A07e18;
 }
 
 /*# sourceMappingURL=style.css.map */
