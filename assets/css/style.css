@@ -72,8 +72,8 @@
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
-    --bs-body-color: #212529;
-    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-color: #253237;
+    --bs-body-color-rgb: 37, 50, 55;
     --bs-body-bg: white;
     --bs-body-bg-rgb: 255, 255, 255;
     --bs-emphasis-color: #2f2f41;
@@ -86,7 +86,7 @@
     --bs-tertiary-color-rgb: 33, 37, 41;
     --bs-tertiary-bg: #f8f9fa;
     --bs-tertiary-bg-rgb: 248, 249, 250;
-    --bs-heading-color: inherit;
+    --bs-heading-color: #253237;
     --bs-link-color: #3E442B;
     --bs-link-color-rgb: 62, 68, 43;
     --bs-link-decoration: none;
@@ -194,7 +194,7 @@ body {
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
-    color: #253237;
+    color: #253237 !important;
     text-align: var(--bs-body-text-align);
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
@@ -223,9 +223,9 @@ h1,
 .h1 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-weight: 500;
     line-height: 1.2;
-    color: var(--bs-heading-color)
+    text-decoration: underline;
+
 }
 
 h1,
@@ -292,7 +292,8 @@ h6,
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    color: #253237 !important;
 }
 
 abbr[title] {
@@ -2415,7 +2416,7 @@ progress {
 .form-text {
     margin-top: .25rem;
     font-size: 0.875em;
-    color: var(--bs-secondary-color)
+    color: #253237;
 }
 
 .form-control {
@@ -2425,7 +2426,7 @@ progress {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--bs-body-color);
+    color: #253237;
     appearance: none;
     background-color: var(--bs-body-bg);
     background-clip: padding-box;
@@ -10641,7 +10642,7 @@ ol li {
 }
 
 .footer .footer-title {
-    color: #fff;
+    color: #56693A !important;
     font-size: 1.3rem;
     font-family: "Figtree", sans-serif, -apple-system;
     font-weight: bold;
@@ -10661,12 +10662,12 @@ ol li {
 }
 
 .footer ul li {
-    color: #fff;
+    color: #56693A;
     font-size: 1rem
 }
 
 .footer ul li a {
-    color: #fff;
+    color: #56693A;
     text-decoration: none;
     padding: 12px 14px 12px 0;
     display: block
@@ -11189,6 +11190,7 @@ ol li {
     overflow: hidden;
     width: 100%;
     margin-left: 25%;
+    color: #253237;
 }
 
 @media(min-width: 768px) {
@@ -11200,7 +11202,7 @@ ol li {
 
 .intro h1,
 .intro .h1 {
-    color: #2f2f41;
+    color: #253237;
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2
@@ -11229,7 +11231,7 @@ ol li {
     font-size: 1.2rem;
     line-height: 1.4;
     margin-bottom: 30px;
-    color: #2f2f41;
+    color: #253237;
     font-family: "Figtree", sans-serif, -apple-system
 }
 
