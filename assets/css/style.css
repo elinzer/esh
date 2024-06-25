@@ -10832,7 +10832,7 @@ ol li {
 
 .main-menu-mobile {
     position: fixed;
-    background: #e5261f;
+    background: #56693A;
     top: 0;
     left: 0;
     width: 100%;
@@ -10944,7 +10944,7 @@ ol li {
 .hamburger .hamburger-inner,
 .hamburger .hamburger-inner::before,
 .hamburger .hamburger-inner::after {
-    background: #e5261f
+    background: #56693A;
 }
 
 .hamburger .hamburger-inner::after {
@@ -11242,11 +11242,11 @@ ol li {
     color: #253237
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     .intro p {
         width: 80%
     }
-}
+} */
 
 .intro-small {
     padding-top: 100px;
@@ -11265,40 +11265,40 @@ ol li {
     margin-bottom: 30px
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     .intro-image-absolute {
         position: absolute;
         bottom: -50px;
         left: -50px;
         width: 700px
     }
-}
+} */
 
-@media(min-width: 992px) {
+/* @media(min-width: 992px) {
     .intro-image-absolute {
         bottom: -60px;
         left: -60px;
         width: 800px
     }
-}
+} */
 
-@media(min-width: 1300px) {
+/* @media(min-width: 1300px) {
     .intro-image-absolute {
         bottom: -100px;
         left: -70px;
         width: 850px
     }
-}
+} */
 
 .intro-image-hide-mobile {
     display: none
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     .intro-image-hide-mobile {
         display: block
     }
-}
+} */
 
 .strip {
     background: #fff;
@@ -11490,12 +11490,12 @@ body {
     font-family: "Figtree", sans-serif, -apple-system
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     body {
         font-size: 16px;
         line-height: 1.3
     }
-}
+} */
 
 .headshot-img {
     width: 355px;
@@ -11521,7 +11521,7 @@ body {
 label{
     display: flex;
     justify-content: flex-start;
-    width: 80%;
+    width: 90%;
     font-size: 18px;
     align-items: center;
 
@@ -11545,4 +11545,13 @@ textarea {
     padding: 10px;
 }
 
+.training-edu > li {
+    font-size: 16px;
+}
+
+.training-img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
 /*# sourceMappingURL=style.css.map */
