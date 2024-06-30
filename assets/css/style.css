@@ -10646,7 +10646,8 @@ ol li {
     font-size: 1.3rem;
     font-family: "Figtree", sans-serif, -apple-system;
     font-weight: bold;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-decoration: none !important;
 }
 
 @media(min-width: 576px) {
@@ -11290,15 +11291,12 @@ ol li {
     }
 } */
 
-.intro-image-hide-mobile {
-    display: none
-}
 
-/* @media(min-width: 768px) {
-    .intro-image-hide-mobile {
-        display: block
+@media only screen and (max-width: 700px) {
+    .image-hide-mobile {
+        display: none;
     }
-} */
+}
 
 .strip {
     background: #fff;
