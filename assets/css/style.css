@@ -11544,7 +11544,7 @@ input {
 }
 
 input:focus {
-    border: 2px solid #A07E18;
+    border: 3px solid #56693A;
     outline: none !important;
 }
 
@@ -11559,7 +11559,7 @@ textarea {
 }
 
 textarea:focus {
-    border: 2px solid #A07E18;
+    border: 3px solid #56693A;
     outline: none !important;
 }
 
