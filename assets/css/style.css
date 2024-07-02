@@ -11590,11 +11590,11 @@ textarea:focus {
 }
 
 .es-header {
-    font-size: 38px;
     color: #253237;
-    text-decoration: underline;
-    text-decoration-color: #A07E18;
+    /* text-decoration: underline;
+    text-decoration-color: #A07E18; */
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .animated-text span {
@@ -11629,6 +11629,11 @@ textarea:focus {
     }
 }
 
+
+.lil-logo {
+    background-color: white;
+    border-radius: 50%;
+}
 
 
 /*# sourceMappingURL=style.css.map */
