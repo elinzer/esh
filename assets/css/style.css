@@ -65,16 +65,16 @@
     --bs-dark-border-subtle: #adb5bd;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 47, 47, 65;
-    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-sans-serif: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --bs-body-font-family: Helvetica, Arial, sans-serif, -apple-system;
+    --bs-body-font-family: "Figtree", sans-serif, -apple-system;
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
-    --bs-body-color: #212529;
-    --bs-body-color-rgb: 33, 37, 41;
-    --bs-body-bg: #D0CBC8;
+    --bs-body-color: #253237;
+    --bs-body-color-rgb: 37, 50, 55;
+    --bs-body-bg: white;
     --bs-body-bg-rgb: 255, 255, 255;
     --bs-emphasis-color: #2f2f41;
     --bs-emphasis-color-rgb: 47, 47, 65;
@@ -86,12 +86,12 @@
     --bs-tertiary-color-rgb: 33, 37, 41;
     --bs-tertiary-bg: #f8f9fa;
     --bs-tertiary-bg-rgb: 248, 249, 250;
-    --bs-heading-color: inherit;
+    --bs-heading-color: #253237;
     --bs-link-color: #3E442B;
     --bs-link-color-rgb: 62, 68, 43;
     --bs-link-decoration: none;
-    --bs-link-hover-color: #ea524d;
-    --bs-link-hover-color-rgb: 234, 82, 77;
+    --bs-link-hover-color: #7A5253;
+    --bs-link-hover-color-rgb: 122, 82, 83;
     --bs-link-hover-decoration: underline;
     --bs-code-color: #d63384;
     --bs-highlight-color: #212529;
@@ -190,11 +190,11 @@
 
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
+    color: #253237 !important;
     text-align: var(--bs-body-text-align);
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
@@ -223,9 +223,8 @@ h1,
 .h1 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-weight: 500;
     line-height: 1.2;
-    color: var(--bs-heading-color)
+
 }
 
 h1,
@@ -256,7 +255,8 @@ h2,
 
 h3,
 .h3 {
-    font-size: calc(1.3rem + 0.6vw)
+    font-size: calc(1.3rem + 0.6vw);
+    text-decoration: underline;
 }
 
 @media(min-width: 1200px) {
@@ -282,7 +282,8 @@ h4,
 
 h5,
 .h5 {
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    text-decoration: underline;
 }
 
 h6,
@@ -292,7 +293,8 @@ h6,
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    color: #253237 !important;
 }
 
 abbr[title] {
@@ -2415,7 +2417,7 @@ progress {
 .form-text {
     margin-top: .25rem;
     font-size: 0.875em;
-    color: var(--bs-secondary-color)
+    color: #253237;
 }
 
 .form-control {
@@ -2425,7 +2427,7 @@ progress {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--bs-body-color);
+    color: #253237;
     appearance: none;
     background-color: var(--bs-body-bg);
     background-clip: padding-box;
@@ -10517,15 +10519,15 @@ textarea.form-control.is-invalid {
 
 p {
     line-height: 26px;
-    color: #5c5a5a;
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    color: #253237;
+    font-family: "Figtree", sans-serif, -apple-system;
     margin-bottom: 20px
 }
 
 h1,
 .h1 {
     font-size: 30px;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     line-height: 1.2;
     margin-bottom: 20px
 }
@@ -10542,7 +10544,7 @@ h1,
 h2,
 .h2 {
     font-size: 24px;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     line-height: 1.4;
     margin-bottom: 10px
 }
@@ -10594,12 +10596,11 @@ ol li {
 }
 
 .header {
-    color: #e5261f;
-    background-color: #fff;
+    background-color: #D0CBC8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff6f8;
+    border-bottom: 3px solid #7A5253;
     padding: 10px 0px
 }
 
@@ -10620,9 +10621,10 @@ ol li {
 }
 
 .footer {
-    background: #6A7062;
+    background: #D0CBC8;
     padding-top: 15px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
+    border-top: 3px solid #7A5253;
 }
 
 .footer .footer-inner {
@@ -10641,11 +10643,12 @@ ol li {
 }
 
 .footer .footer-title {
-    color: #fff;
+    color: #253237 !important;
     font-size: 1.3rem;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-weight: bold;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-decoration: none !important;
 }
 
 @media(min-width: 576px) {
@@ -10661,19 +10664,20 @@ ol li {
 }
 
 .footer ul li {
-    color: #fff;
+    color: #253237;
     font-size: 1rem
 }
 
 .footer ul li a {
-    color: #fff;
+    color: #253237;
     text-decoration: none;
     padding: 12px 14px 12px 0;
     display: block
 }
 
 .footer ul li a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    text-decoration-color: #A07E18
 }
 
 @media(min-width: 576px) {
@@ -10704,7 +10708,7 @@ ol li {
 }
 
 .sub-footer {
-    background: #6A7062;
+    background: #D0CBC8;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 15px
@@ -10812,11 +10816,12 @@ ol li {
     display: inline-block;
     font-weight: normal;
     text-decoration: none;
-    color: #e5261f
+    color: #253237;
 }
 
 .main-menu>ul>li>a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    text-decoration-color: #A07E18;
 }
 
 .main-menu>ul>li.active>a {
@@ -10831,7 +10836,7 @@ ol li {
 
 .main-menu-mobile {
     position: fixed;
-    background: #e5261f;
+    background: #56693A;
     top: 0;
     left: 0;
     width: 100%;
@@ -10880,7 +10885,7 @@ ol li {
 
 .main-menu-mobile ul {
     font-size: 30px;
-    font-family: "Playfair Display", serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     text-align: center;
     list-style: none;
     padding: 0;
@@ -10943,7 +10948,7 @@ ol li {
 .hamburger .hamburger-inner,
 .hamburger .hamburger-inner::before,
 .hamburger .hamburger-inner::after {
-    background: #e5261f
+    background: #56693A;
 }
 
 .hamburger .hamburger-inner::after {
@@ -11077,7 +11082,7 @@ ol li {
 }
 
 .content strong {
-    font-width: bold
+    font-width: bold;
 }
 
 .content em {
@@ -11085,14 +11090,14 @@ ol li {
 }
 
 .content p {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     line-height: 1.56;
-    color: #5c5a5a
+    color: #253237
 }
 
 .content h1,
 .content .h1 {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: 34px;
     line-height: 1.26;
     font-weight: normal;
@@ -11102,7 +11107,7 @@ ol li {
 
 .content h2,
 .content .h2 {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: 26px;
     font-weight: normal;
     line-height: 1.4;
@@ -11111,7 +11116,7 @@ ol li {
 
 .content h3,
 .content .h3 {
-    font-family: Helvetica, Arial, sans-serif, -apple-system;
+    font-family: "Figtree", sans-serif, -apple-system;
     font-size: 20px;
     line-height: 1.4;
     font-weight: normal;
@@ -11182,11 +11187,14 @@ ol li {
 
 .intro {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    overflow: hidden
+    overflow: hidden;
+    width: 100%;
+    margin-left: 25%;
+    color: #253237;
 }
 
 @media(min-width: 768px) {
@@ -11198,7 +11206,7 @@ ol li {
 
 .intro h1,
 .intro .h1 {
-    color: #2f2f41;
+    color: #253237;
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2
@@ -11227,22 +11235,22 @@ ol li {
     font-size: 1.2rem;
     line-height: 1.4;
     margin-bottom: 30px;
-    color: #2f2f41;
-    font-family: Helvetica, Arial, sans-serif, -apple-system
+    color: #253237;
+    font-family: "Figtree", sans-serif, -apple-system
 }
 
 .intro p {
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
-    color: #5c5a5a
+    color: #253237
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     .intro p {
         width: 80%
     }
-}
+} */
 
 .intro-small {
     padding-top: 100px;
@@ -11261,38 +11269,35 @@ ol li {
     margin-bottom: 30px
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     .intro-image-absolute {
         position: absolute;
         bottom: -50px;
         left: -50px;
         width: 700px
     }
-}
+} */
 
-@media(min-width: 992px) {
+/* @media(min-width: 992px) {
     .intro-image-absolute {
         bottom: -60px;
         left: -60px;
         width: 800px
     }
-}
+} */
 
-@media(min-width: 1300px) {
+/* @media(min-width: 1300px) {
     .intro-image-absolute {
         bottom: -100px;
         left: -70px;
         width: 850px
     }
-}
+} */
 
-.intro-image-hide-mobile {
-    display: none
-}
 
-@media(min-width: 768px) {
-    .intro-image-hide-mobile {
-        display: block
+@media only screen and (max-width: 700px) {
+    .image-hide-mobile {
+        display: none;
     }
 }
 
@@ -11442,7 +11447,7 @@ ol li {
 }
 
 .page-teams .team-summary .team-meta p {
-    color: #2f2f41;
+    color: #253237;
     text-transform: uppercase;
     margin: 0;
     font-size: 12px;
@@ -11477,20 +11482,158 @@ ol li {
     line-height: 1.4;
     margin-bottom: 40px;
     font-weight: regular;
-    color: #686868
+    color: #253237
 }
 
 body {
     font-size: 16px;
     line-height: 1.2;
-    font-family: Helvetica, Arial, sans-serif, -apple-system
+    font-family: "Figtree", sans-serif, -apple-system
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     body {
         font-size: 16px;
         line-height: 1.3
     }
+} */
+
+.headshot-img {
+    width: 355px;
+    height: 540px;
+    box-shadow: 12px 12px 0px #A07e18;
 }
+
+.prof-list li {
+    color: #253237;
+}
+
+.training-img {
+    box-shadow: 10px 10px 0px #56693A;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+    border: 4px solid #A07E18;
+    border-radius: 20px;
+}
+
+label{
+    text-align: right;
+    width: 80%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+
+}
+
+input {
+    width: 80%;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    height: 50px;
+}
+
+input:focus {
+    border: 3px solid #56693A;
+    outline: none !important;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    display: inline-block;
+}
+
+textarea:focus {
+    border: 3px solid #56693A;
+    outline: none !important;
+}
+
+.training-edu > li {
+    font-size: 16px;
+    color: #253237;
+}
+
+.training-img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.send-it {
+    background-color: white;
+    color: #7A5253;
+    border: 2px solid #7A5253;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+}
+
+.send-it:hover {
+    background-color: #7A5253;
+    color: white;
+}
+
+.es-header {
+    color: #253237;
+    /* text-decoration: underline;
+    text-decoration-color: #A07E18; */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.animated-text span {
+    opacity: 0;
+    display: inline-block;
+    animation: appear 1s forwards;
+    font-size: 20px;
+    color: #253237;
+    padding-right: 5px;
+}
+
+.animated-text span:hover {
+    text-decoration: underline;
+    color:#7A5253 !important;
+}
+
+.animated-text span:nth-child(1) {
+    animation-delay: .5s;
+}
+
+.animated-text span:nth-child(2) {
+    animation-delay: 1.2s;
+}
+
+.animated-text span:nth-child(3) {
+    animation-delay: 1.9s;
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.lil-logo {
+    background-color: white;
+    border-radius: 50%;
+}
+
 
 /*# sourceMappingURL=style.css.map */
