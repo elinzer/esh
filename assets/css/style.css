@@ -11298,6 +11298,9 @@ ol li {
     .image-hide-mobile {
         display: none;
     }
+    .therapy {
+        display: inline-block !important;
+    }
 }
 
 .strip {
