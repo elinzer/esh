@@ -10603,6 +10603,30 @@ ol li {
     padding: 10px 0px
 }
 
+.alert {
+    background-color: #b59125;
+    padding-bottom: 0;
+    padding-top: 5px;
+    border: none;
+}
+
+#client-banner {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    top: 0;
+    width: 100%;
+}
+
+#banner-close {
+    border: none;
+    background-color: #b59125;
+    font-size: 14px;
+    margin-right: 0;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
@@ -11298,6 +11322,7 @@ ol li {
     .image-hide-mobile {
         display: none;
     }
+
     .therapy {
         display: inline-block !important;
     }
@@ -11525,7 +11550,7 @@ body {
     border-radius: 20px;
 }
 
-label{
+label {
     text-align: right;
     width: 80%;
     font-size: 18px;
@@ -11565,7 +11590,7 @@ textarea:focus {
     outline: none !important;
 }
 
-.training-edu > li {
+.training-edu>li {
     font-size: 16px;
     color: #253237;
 }
@@ -11610,7 +11635,7 @@ textarea:focus {
 
 .animated-text span:hover {
     text-decoration: underline;
-    color:#7A5253 !important;
+    color: #7A5253 !important;
 }
 
 .animated-text span:nth-child(1) {

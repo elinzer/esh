@@ -7,3 +7,21 @@ menuTrigger.onclick = function() {
     menuTrigger.classList.toggle('is-active')
     body.classList.toggle('lock-scroll')
 }
+
+let clientBanner = document.getElementById('client-banner');
+
+clientBanner.style.opacity = 1;
+
+let bannerButton = document.getElementById('banner-close').addEventListener('click', function() {
+    clientBanner.style.display = 'none';
+    sessionStorage.setItem('banner-closed', true);
+
+})
+
+window.onload = function() {
+    let storedData = sessionStorage.getItem('banner-closed')
+
+    if (storedData) {
+        clientBanner.style.display = 'none';
+    }
+}
