@@ -10608,6 +10608,9 @@ ol li {
     padding-bottom: 0;
     padding-top: 5px;
     border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #client-banner {
@@ -10618,13 +10621,19 @@ ol li {
     font-size: 22px;
     top: 0;
     width: 100%;
+    animation-delay: 1s;
+}
+
+.reach-out-link:hover {
+    color: #6E494B;
 }
 
 #banner-close {
-    border: none;
+    border: 1px solid #cca52f;
+    border-radius: 2px;
     background-color: #b59125;
     font-size: 14px;
-    margin-right: 0;
+
 }
 
 .header .container {
