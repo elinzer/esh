@@ -11620,6 +11620,20 @@ textarea:focus {
     margin: 10px;
 }
 
+.contact-me-button {
+    background-color: white;
+    color: #7A5253;
+    border: 2px solid #7A5253;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-me-button:hover {
+    background-color: #7A5253;
+    color: white;
+}
+
 .send-it:hover {
     background-color: #7A5253;
     color: white;
