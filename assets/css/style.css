@@ -11560,7 +11560,6 @@ body {
 }
 
 label {
-    text-align: right;
     width: 80%;
     font-size: 18px;
     display: flex;
@@ -11595,6 +11594,22 @@ textarea {
 }
 
 textarea:focus {
+    border: 3px solid #56693A;
+    outline: none !important;
+}
+
+select {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+
+select:focus {
     border: 3px solid #56693A;
     outline: none !important;
 }
