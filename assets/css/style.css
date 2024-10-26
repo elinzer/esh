@@ -11569,6 +11569,16 @@ label {
 
 }
 
+/* label > p {
+
+
+} */
+
+label > p::after{
+    content: "*";
+    color: red;
+}
+
 input {
     width: 80%;
     display: inline-block;
@@ -11599,7 +11609,7 @@ textarea:focus {
 }
 
 select {
-    width: 90%;
+    width: 80%;
     padding: 10px;
     font-size: 18px;
     border: 1px solid #aaa;
@@ -11700,5 +11710,14 @@ select:focus {
     border-radius: 50%;
 }
 
+.cred-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inclusive-plus-cred {
+    width: 40%;
+}
 
 /*# sourceMappingURL=style.css.map */
