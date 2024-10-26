@@ -11560,7 +11560,6 @@ body {
 }
 
 label {
-    text-align: right;
     width: 80%;
     font-size: 18px;
     display: flex;
@@ -11568,6 +11567,16 @@ label {
     justify-content: space-between;
     align-self: center;
 
+}
+
+/* label > p {
+
+
+} */
+
+label > p::after{
+    content: "*";
+    color: red;
 }
 
 input {
@@ -11595,6 +11604,22 @@ textarea {
 }
 
 textarea:focus {
+    border: 3px solid #56693A;
+    outline: none !important;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+
+select:focus {
     border: 3px solid #56693A;
     outline: none !important;
 }
@@ -11685,5 +11710,14 @@ textarea:focus {
     border-radius: 50%;
 }
 
+.cred-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inclusive-plus-cred {
+    width: 40%;
+}
 
 /*# sourceMappingURL=style.css.map */

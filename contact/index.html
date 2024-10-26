@@ -66,7 +66,9 @@
 
   <div id="wrapper" class="wrapper">
     <div class='header alert' id="client-banner">
-      <p style="margin-top: 10px; text-align: center; flex-grow: 1;">Now accepting new clients. <a style="text-decoration: underline; color: #253237 !important;" class="reach-out-link" href="/contact/index.html">Reach out today!</a></p>
+      <p style="margin-top: 10px; text-align: center; flex-grow: 1;">Now accepting new clients. <a
+          style="text-decoration: underline; color: #253237 !important;" class="reach-out-link"
+          href="/contact/index.html">Reach out today!</a></p>
       <button id="banner-close">X
       </button>
     </div>
@@ -128,38 +130,45 @@
 
         <div class="content mt-4">
 
-          <p style="font-size: 20px;">If you'd like to set up a free 15-minute intake call or request a training please use the form below.</p>
+          <p style="font-size: 20px;">If you'd like to set up a free 15-minute intake call or request a training, please
+            use the form below.</p>
 
-          <p style="width: 90%; font-style: italic;">This inbox is not monitored 24/7. Please do not put any sensitive
-            information in this form such as SSN or credit card info. In case of emergency, please go to your nearest
-            emergency room. If you need to talk to someone
-            immediately, call the Suicide and Crisis Lifeline at 988, the Trans Lifeline at 877-565-8860, or text
-            the Crisis Text Line by texting HOME to 741741. </p>
-
-
-
+          <p style="width: 90%; font-style: italic;">This inbox is not constantly monitored and is not intended to be
+            used in an emergency. You can expect a response within 48 business hours. If this is an emergency, go to
+            your nearest emergency room. Please do not put any confidential information in this form, including credit
+            card information or social security number.</p>
 
           <form class="contact-form" action="https://formspree.io/f/xkndynvp" method="POST">
 
             <label>
-              Your name:
+              <p>Your name:</p>
               <input style="margin: 3px;" name="name" placeholder="Your name" maxlength="100" required>
             </label>
             <label>
-              Your email:
+              <p>Your email:</p>
               <input style="margin: 3px;" type="email" name="email" placeholder="Your email" maxlength="100" required>
             </label>
             <label>
-              Confirm email:
+              <p>Confirm email:</p>
               <input style="margin: 3px;" type="email" name="verify-email" placeholder="Confirm email" maxlength="100"
                 required>
             </label>
+            <label><p>You're seeking:</p>
+              <select style="margin: 3px;" id="dropdown" name="options">
+                <option value="option1">Therapy</option>
+                <option value="option2">Training or consultation (for professionals)</option>
+                <option value="option3">Something else</option>
+              </select>
+            </label>
             <label class="textarea-label">
-              Your message:
+              <p>Your message:</p>
               <textarea style="margin: 3px;" name="message" maxlength="2000" placeholder="Your message"></textarea>
             </label>
             <button class="send-it" style="margin: 3px; align-self: center;" type="submit">Send</button>
           </form>
+          <p style="margin-top: 10px; font-style: italic; width: 90%;">If you need to talk to someone immediately, call
+            the Suicide and Crisis Lifeline at 988, the Trans Lifeline at 877-565-8860, or text the Crisis Text Line by
+            texting HOME to 741741.</p>
         </div>
       </div>
     </div>
