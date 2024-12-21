@@ -11542,6 +11542,7 @@ body {
 
 .prof-list li {
     color: #253237;
+    margin-bottom: 0px;
 }
 
 .training-img {
@@ -11711,9 +11712,10 @@ select:focus {
 }
 
 .cred-imgs {
+    margin-top: 0px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    width: 140% !important;
 }
 
 .inclusive-plus-cred {
