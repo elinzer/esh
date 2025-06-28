@@ -117,12 +117,15 @@
 
 
     <div class="container pb-6 pt-6 pt-md-10 pb-md-10" style="margin-bottom: 110px; max-width: 75% !important">
+      <!-- Header stays full-width -->
+      <h1 class="title">Training & Education</h1>
+
+      <!-- Two-column layout -->
       <div class="row">
-        <!-- Main Content -->
+        <!-- Main Column -->
         <div class="col-12 col-md-8">
-          <h1 class="title">Training & Education</h1>
           <div class="content"
-            style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 4px;">
+            style="display: flex; flex-direction: column; justify-content: space-between; padding: 4px;">
             <div class="row">
               <p style="font-size: 20px;">
                 I am a passionate educator with over 10 years of experience facilitating workshops, presentations, and
@@ -131,32 +134,28 @@
                 <a href="/contact/index.html">Contact me</a> today to book a training for your organization or community
                 group!
               </p>
-              <p style="font-size: 20px;">
-              <h4>Offerings include:</h4>
-              </p>
+              <h4 style="font-size: 20px;">Offerings include:</h4>
             </div>
+
             <div class="columns" style="display: flex; gap: 1rem;">
               <div class="col1" style="flex: 2;">
-                <h5 id="mental-health">For mental health professionals</h5>
-                <div class="training-edu" style="text-indent: 20px;">
+                <h5 id="mental-health" style="margin-left: 0.7em;">For mental health professionals</h5>
+                <ul class="training-edu" style="list-style-position: outside; padding-left: 2em; margin-left: 0.5em;">
                   <li>Foundations of Self-of-the-Therapist Work</li>
                   <li>Polyamory and Consensual Non-Monogamy in the Therapy Room</li>
                   <li>LGBTQ+ Identity Development across the Lifespan</li>
                   <li>Affirmative Care for LGBTQ+ Youth and their Families</li>
                   <li>Working with Transgender Clients</li>
                   <li>Recognizing and Unlearning Therapist Bias</li>
-                </div>
+                </ul>
 
-                <h5 id="general-audience">For general audiences & organizations</h5>
-                <div class="training-edu" style="text-indent: 20px;">
+                <h5 id="general-audience" style="margin-left: 0.7em;">For general audiences & organizations</h5>
+                <ul class="training-edu" style="list-style-position: outside; padding-left: 2em; margin-left: 0.5em;">
+
                   <li>Understanding Transgender and Gender Expansive Identities</li>
                   <li>Creating LGBTQ+ Welcoming Spaces</li>
                   <li>Supporting Transgender Youth</li>
-                </div>
-              </div>
-
-              <div class="col2" style="flex: 1;">
-                <img class="training-img image-hide-mobile" src="../images/Essieteaching.jpeg" />
+                </ul>
               </div>
             </div>
 
@@ -170,8 +169,9 @@
           </div>
         </div>
 
-        <!-- Sidebar (on the right) -->
+        <!-- Smaller Second Column (now includes images and sidebar) -->
         <div class="col-12 col-md-4 mb-4">
+          <!-- Sidebar content -->
           <div class="sidebar" style="padding: 20px; border-radius: 8px; border: 3px solid #A07E18">
             <h5>Upcoming Trainings</h5>
             <ul style="list-style: none; padding-left: 0;">
@@ -180,6 +180,14 @@
                 <span>Working with Polyamory in the Therapy Room (link coming soon)</span>
               </li>
             </ul>
+          </div>
+
+          <!-- Training Images -->
+          <div style="margin-top: 20px; text-align: center;">
+            <img class="training-img image-hide-mobile" src="../images/Essieteaching.jpeg" alt="Teaching Photo 1"
+              style="max-width: 90%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+            <img class="training-img image-hide-mobile flip-shadow" src="../images/training-photo2.jpg"
+              alt="Teaching Photo 2" style="max-width: 90%; height: auto; border-radius: 8px;">
           </div>
         </div>
       </div>
