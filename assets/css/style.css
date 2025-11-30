@@ -11727,3 +11727,34 @@ select:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Mobile responsive styles for About page */
+@media (max-width: 768px) {
+  .test {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .test > div {
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 20px 0 !important;
+  }
+
+  .headshot-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cred-imgs {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .cred-imgs img {
+    max-width: 200px !important;
+    height: auto !important;
+    width: auto !important;
+  }
+}
