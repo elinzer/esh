@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-2 shrink-0">
+        <img src="/images/logo/croppedlogo.png" alt="Essie Shachar-Hill logo" height="44" width="44" class="h-11 w-11">
+        <span class="hidden sm:block text-sm font-medium text-body">Home</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-6">
+        {% for item in site.data.nav %}
+          {% if item.external %}
+            <a href="{{ item.url }}" target="_blank" rel="noopener" class="nav-link">{{ item.title }}</a>
+          {% else %}
+            <a href="{{ item.url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+
+      <!-- Hamburger (mobile) -->
+      <button id="toggle-main-menu-mobile" type="button" aria-label="Open mobile menu" aria-expanded="false"
+              class="md:hidden flex flex-col justify-center items-center gap-1.5 w-10 h-10 rounded focus:outline-none focus:ring-2 focus:ring-brand-mauve">
+        <span class="hamburger-bar" id="ham-top"></span>
+        <span class="hamburger-bar" id="ham-mid"></span>
+        <span class="hamburger-bar" id="ham-bot"></span>
+      </button>
+    </div>
+  </div>
+</header>

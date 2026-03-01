@@ -1,5 +1,36 @@
+# Jekyll build output
 _site
-.sass-cache
 .jekyll-cache
 .jekyll-metadata
+.sass-cache
+
+# Ruby / Bundler
 vendor
+.bundle
+Gemfile.lock
+
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Tailwind generated CSS (built artifact — commit if deploying statically)
+# assets/css/style.css
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.local
+.env*.local

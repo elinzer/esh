@@ -1,0 +1,11 @@
+- title: About
+  url: /about/
+- title: Therapy
+  url: /therapy/
+- title: "Training & Education"
+  url: /training/
+- title: Contact
+  url: /contact/
+- title: Client Portal
+  url: https://essie.clientsecure.me
+  external: true

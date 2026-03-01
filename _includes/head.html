@@ -1,0 +1,26 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MD3ZWZMY1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-MD3ZWZMY1Q');
+</script>
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} | Essie Shachar-Hill, PLLC{% else %}Essie Shachar-Hill, PLLC{% endif %}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" href="/images/logo/favicon-32x32.png">
+<!-- Google Fonts CDN -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<!-- Self-hosted Playfair Display -->
+<link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+<link href="/assets/css/style.css" rel="stylesheet">
+<!-- OG / Twitter meta -->
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | Essie Shachar-Hill, PLLC{% else %}Essie Shachar-Hill, PLLC{% endif %}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="twitter:card" content="summary" />
