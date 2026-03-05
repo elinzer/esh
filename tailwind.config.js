@@ -15,6 +15,7 @@ module.exports = {
           mauve: '#7A5253',
           sage: '#56693A',
           taupe: '#D0CBC8',
+          'taupe-light': '#E8E5E3',
         },
         body: '#253237',
       },

@@ -32,7 +32,7 @@
 @layer components {
   /* Nav */
   .nav-link {
-    @apply relative text-body font-medium text-sm uppercase tracking-wide transition-colors duration-200 pb-1;
+    @apply relative text-body font-medium text-sm transition-colors duration-200 pb-1;
   }
 
   .nav-link::after {
@@ -80,7 +80,7 @@
 
   /* Footer links */
   .footer-link {
-    @apply text-white hover:text-brand-taupe transition-colors duration-200;
+    @apply text-brand-green hover:text-brand-mauve transition-colors duration-200 text-sm;
   }
 
   /* Headshot shadow */
@@ -141,6 +141,6 @@
 
   /* Sticky header */
   .site-header {
-    @apply sticky top-0 z-40 bg-white border-b border-gray-200 shadow-sm;
+    @apply sticky top-0 z-40 bg-white border-b-2 border-brand-mauve;
   }
 }
